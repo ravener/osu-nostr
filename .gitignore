@@ -1,0 +1,5 @@
+dist
+last_update.json
+osu.json
+.env
+node_modules

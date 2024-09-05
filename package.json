@@ -1,0 +1,42 @@
+{
+  "name": "osu-nostr",
+  "version": "1.0.0",
+  "description": "Posts osu! news feed to nostr",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravener/osu-nostr.git"
+  },
+  "keywords": [
+    "osu",
+    "nostr",
+    "news",
+    "bot"
+  ],
+  "author": "Ravener",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravener/osu-nostr/issues"
+  },
+  "homepage": "https://github.com/ravener/osu-nostr#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/ws": "^8.5.12",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.5.0",
+    "@nostr-dev-kit/ndk": "^2.10.0",
+    "colorette": "^2.0.20",
+    "dotenv": "^16.4.5",
+    "nostr-tools": "^2.7.2",
+    "utils": "link:@noble/hashes/utils",
+    "ws": "^8.18.0"
+  }
+}
